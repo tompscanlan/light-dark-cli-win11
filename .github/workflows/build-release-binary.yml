@@ -1,5 +1,7 @@
 name: Windows CLI build
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+permissions:
+  contents: write
 on: [push]
 jobs:
   x86_64-pc-windows-msvc:
@@ -27,4 +29,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: ./target/x86_64-pc-windows-gnu/debug/light-dark-cli-win11.exe
+
       
