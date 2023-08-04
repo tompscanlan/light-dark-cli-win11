@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: toolchain
-        run: rustup target add x86_64-pc-windows-gnu
+        run: apt update && apt install -y g++-mingw-w64-x86-64  && rustup target add x86_64-pc-windows-gnu
       - name: build
         run: cargo build --target x86_64-pc-windows-gnu
       
