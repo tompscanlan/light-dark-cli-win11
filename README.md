@@ -11,4 +11,4 @@ MIT, if you need a license.
 
 ## Demo
 
-![Demo](https://gifs.com/gif/LZpLOr)
+![Demo](https://j.gifs.com/LZpLOr.gif)
