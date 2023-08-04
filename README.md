@@ -8,3 +8,7 @@ That is all.
 
 
 MIT, if you need a license.
+
+## Demo
+
+![Demo](https://gifs.com/gif/LZpLOr)
